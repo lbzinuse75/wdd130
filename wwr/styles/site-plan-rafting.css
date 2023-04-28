@@ -7,10 +7,10 @@
     --heading-font: 'PermanentMarker-Regular.ttf', sans-serif;
     --paragraph-font: 'VarelaRound-Regular.ttf', sans-serif;
 
-    --nav-background-color: #;
-    --nav-link-color: #;
-    --nav-hover-link-color: #;
-    --nav-hover-background-color: #;
+    --nav-background-color: var(--accent2-color);
+    --nav-link-color: var(--accent1-color);
+    --nav-hover-link-color: var(--secondary-color);
+    --nav-hover-background-color: var(--primary-color);
 }
 
 body {
