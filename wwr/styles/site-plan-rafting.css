@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@300&family=Varela+Round&display=swap');
 
 :root {
     --primary-color: #0193E0;
@@ -6,8 +6,8 @@
     --accent1-color: #251663;
     --accent2-color: #F5ED16;
 
-    --heading-font: font-family: 'Permanent Marker', cursive;
-    --paragraph-font: font-family: 'Varela Round', sans-serif;
+    --heading-font: 'Grandstander', cursive;
+    --paragraph-font: 'Varela Round', sans-serif;
 
     --nav-background-color: var(--accent2-color);
     --nav-link-color: var(--accent1-color);
