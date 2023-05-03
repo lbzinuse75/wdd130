@@ -31,20 +31,20 @@ p {
     padding: 0;
 }
 
-aside h2 {
-    position:absolute;
-    right: 510px;
-    top: 530px;
-}
-
-/* aside h2 {
-    position: absolute;
+aside {
+    position:relative;
     width: 20em;
     text-align: center;
-} */
+}
+
+aside h2 {
+    position: absolute;
+    width: 50px;
+    left: 130px;
+}
 
 aside img {
-    width: 750px;
+    width: 200px;
     height: auto;
 }
 
