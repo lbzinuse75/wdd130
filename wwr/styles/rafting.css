@@ -11,9 +11,9 @@ documented in your website plan. */
 
     --h1:var(--accent1-color)
     --h2:var(--accent1-color)
-    --paragraph-font:var(--accent1-color)
+    --p-font:var(--accent1-color)
 
-    --heading-font: 'Grandstander', cursive;
+    --header-font: "Grandstander", serif;
     --paragraph-font: 'Varela Round', sans-serif;
 
     --nav-background-color: var(--accent2-color);
@@ -22,9 +22,22 @@ documented in your website plan. */
     --nav-hover-background-color: var(--primary-color);
 }
 
-/* Remove the underlines from the social media links */
+h1, h2 {
+    color: var(--accent1-color);
+    font-family: "Grandstander", serif;
+}
 
-/* Consider limiting the entire width of the page to make it easier to design the content. */
+p {
+    color: var(--accent1-color);
+    font-family: "Varela Round", sans-serif;
+}
+
+a {
+    text-decoration-line: none;
+}
+body {
+    max-width: 1500px;
+}
 
 .hero div {
     position: relative
@@ -37,7 +50,7 @@ documented in your website plan. */
     height: auto;
 }
 
-h1 p {
+.hero h1 article {
     position: absolute
 }
 
