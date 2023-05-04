@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@300&family=Varela+Round&display=swap');
+
+/* Define the CSS variables in the document :root pseudo-class selector from the color schema you have selected and 
+documented in your website plan. */
+
+:root {
+    --primary-color: #0193E0;
+    --secondary-color: #E6752F;
+    --accent1-color: #251663;
+    --accent2-color: #F5ED16;
+
+    --h1:var(--accent1-color)
+    --h2:var(--accent1-color)
+    --paragraph-font:var(--accent1-color)
+
+    --heading-font: 'Grandstander', cursive;
+    --paragraph-font: 'Varela Round', sans-serif;
+
+    --nav-background-color: var(--accent2-color);
+    --nav-link-color: var(--accent1-color);
+    --nav-hover-link-color: var(--secondary-color);
+    --nav-hover-background-color: var(--primary-color);
+}
+
+/* Remove the underlines from the social media links */
+
+/* Consider limiting the entire width of the page to make it easier to design the content. */
+
+.hero div {
+    position: relative
+}
+
+.hero img {
+    float: right;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 p {
+    position: absolute
+}
+
