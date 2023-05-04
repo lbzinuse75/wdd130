@@ -38,19 +38,18 @@ a {
 body {
     max-width: 1500px;
 }
-
-.hero div {
-    position: relative
-}
-
 .hero img {
     float: right;
     display: block;
     width: 100%;
     height: auto;
 }
+/* .hero div {
+    position: relative
+} */
 
-.hero h1 article {
+/* .hero h1 article {
     position: absolute
-}
+} */
+
 
