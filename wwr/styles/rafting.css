@@ -8,18 +8,6 @@ documented in your website plan. */
     --secondary-color: #E6752F;
     --accent1-color: #251663;
     --accent2-color: #F5ED16;
-
-    --h1:var(--accent1-color)
-    --h2:var(--accent1-color)
-    --p-font:var(--accent1-color)
-
-    --header-font: "Grandstander", serif;
-    --paragraph-font: 'Varela Round', sans-serif;
-
-    --nav-background-color: var(--accent2-color);
-    --nav-link-color: var(--accent1-color);
-    --nav-hover-link-color: var(--secondary-color);
-    --nav-hover-background-color: var(--primary-color);
 }
 
 h1, h2 {
@@ -38,18 +26,29 @@ a {
 body {
     max-width: 1500px;
 }
-.hero img {
+
+.hero div {
+    position: relative
+}
+
+h1 {
+    position: absolute;
+}
+
+article {
+    position: absolute;
+    background:#f5ee166c
+}
+
+article img {
     float: right;
+    width: 200px;
+    height: auto;
+}
+
+.hero img {
     display: block;
     width: 100%;
     height: auto;
 }
-/* .hero div {
-    position: relative
-} */
-
-/* .hero h1 article {
-    position: absolute
-} */
-
 
