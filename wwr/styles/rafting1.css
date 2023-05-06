@@ -23,35 +23,45 @@ p {
 a {
     text-decoration-line: none;
 }
-
 body {
     max-width: 1500px;
 }
 
+div .hero img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
 div .hero {
-    position: relative;
-    display: block;
-}
-
-h1 {
     position: absolute;
-    text-align: center;
-    background: var(--primary-color);
-}
-
-article {
-    position: absolute;
-    background:#f5ee166c;
-}
-
-.hero img {
     display: block;
     width: 100%;
     height: auto;
 }
 
+.hero h1 {
+    position: relative;
+    text-align: center;
+    background: var(--primary-color)
+}
+
 .hero article img {
     float: right;
+    position: relative;
     width: 170px;
     height: auto;
+    
+}
+
+article {
+    position: relative;
+    background:#f5ee166c;
+}
+
+section {
+    position: relative;
+}
+
+section {
+    position: relative;
 }

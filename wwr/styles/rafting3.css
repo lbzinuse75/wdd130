@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Grandstander:wght@300&family=Varela+Round&display=swap');
 
-/* Define the CSS variables in the document :root pseudo-class selector from the color schema you have selected and 
-documented in your website plan. */
-
 :root {
     --primary-color: #0193E0;
     --secondary-color: #E6752F;
@@ -25,33 +22,26 @@ a {
 }
 
 body {
-    max-width: 1500px;
-}
-
-div .hero {
-    position: relative;
-    display: block;
-}
-
-h1 {
-    position: absolute;
-    text-align: center;
-    background: var(--primary-color);
-}
-
-article {
-    position: absolute;
-    background:#f5ee166c;
+    max-width:1500px;
 }
 
 .hero img {
-    display: block;
     width: 100%;
     height: auto;
 }
 
 .hero article img {
     float: right;
-    width: 170px;
-    height: auto;
+    width: 150px;
+    height: auto
+}
+
+.hero {
+    position: absolute;
+    display: block;
+}
+
+h1, article {
+    position: absolute;
+    float: right;
 }
