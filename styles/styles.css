@@ -10,11 +10,12 @@ header, .grid, footer {
 }
 
 nav {
-    background-color: steelblue;
+    background-color: rgb(114, 171, 218);
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    border: 1px solid rgb(14, 14, 231)
 }
 
 nav a {
@@ -43,7 +44,7 @@ main img {
     float: right;
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid rgb(14, 14, 231);
     padding: 2px;
     box-shadow: 0 0 30px gray;
     margin: 0 1rem 1rem 1rem;
@@ -53,6 +54,7 @@ p {
     padding: 0;
     margin: 1rem;
 }
+
 
 aside {
     position:relative;
@@ -84,6 +86,6 @@ footer {
     margin: 1rem;
     border: 1px solid rgb(14, 14, 231);
     padding: 1rem;
-    background-color: steelblue;
+    background-color: rgb(114, 171, 218);
     color:black
 }
