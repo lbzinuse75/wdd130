@@ -28,17 +28,15 @@ header img {
 
 nav {
     display: flex;
-    justify-content: flex-start;
-    list-style: none;
 }
 
 a {
     text-decoration-line: none;
-    padding: 10px;
+    padding: 5px;
     color: #251663;
     font-size: 26px;
     font-family: "Varela Round", sans-serif;
-    width: 200px;
+    width: 150px;
 }
 
 a:hover {
@@ -67,7 +65,7 @@ div .hero {
 
 h1 {
     position: absolute;
-    top: 200px;
+    top: 225px;
     left: 200px;
     right: 200px;
     text-align: center;
@@ -96,50 +94,54 @@ article {
     height: auto;
 }
 
-.history section {
+.history {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 20px 20px;
+    grid-template-columns: 1fr .5fr 1fr;
+    /* grid-template-rows: 20px 20px; */
     align-items: center;
 }
 
 .history h2 {
-    grid-template-columns: 1/4;
-    grid-template-rows: 1/2;
+    text-align: center;
+    grid-column: 2;
+    grid-row: 1;
 }
 
-.history img {
-    grid-column: 2/3;
-    grid-template-rows:2/3;
-    align-self: center;
-    width: 170px;
+.one {
+    grid-column: 2;
+    grid-template-rows:2;
+    justify-self: center;
+    width: 200px;
     height: auto;
 }
 
-.history .p-one p {
-    grid-column: 1/2;
-    grid-row: 2/3;
+#p-one {
+    grid-column: 1;
+    grid-row: 2;
+    text-align: right;
 }
 
-.history .p-two p {
-    grid-column: 3/4;
-    grid-row: 2/3;
+#p-two {
+    grid-column: 3;
+    grid-row: 2;
+    text-align: left;
 }
 
-.adventure section {
+.adventure {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 20px 20px;
     gap: 10px;
-    width:100px;
-    height: 50px;
-    overflow: hidden;
 }
 
 .adventure h2 {
     grid-column: 1/6;
     grid-row: 1/2;
+    text-align: center;
 
+}
+
+.adventure figcaption {
+    text-align: center;
 }
 
 .adventure img {
@@ -147,21 +149,28 @@ article {
     width: 100px;
     height: 100px;
     grid-column: 1/6;
-    grid-row: 2/3;
-    
-
+    justify-content: space-around;
 }
 
+/* .adventure .picture1 {
+    align-content: center;
+    justify-content: center;
+} */
+
 footer {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 footer p {
     text-align: center;
+    grid-column: 2;
 }
 
-footer nav a img {
-    float: right;
+.sociallinks img {
     width: 50px;
     height: auto;
+    /* grid-column: 3; */
+    margin: 5px;
 }
+
