@@ -1,1 +1,40 @@
-https://lbzinuse75.github.io/wdd130/quiz.html
+body header h2 {
+    color: #000080;
+    text-align: center;
+    font-family:Arial, Helvetica, serif;
+    width: 450px;
+    
+}
+
+fieldset {
+    width: 450px;
+    background-color: rgb(248, 192, 150);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: (10);
+    padding: 2em 1em 1.5em 1em;
+    grid-row-gap: 10px;
+    font-family:Arial, Helvetica, serif;
+
+}
+
+.example {
+    background-color: rgb(177, 197, 243);
+    text-align: center;
+    width: 200px;
+}
+
+button {
+    background-color: #000080;
+    color: white;
+    width: 150px;
+    height: 25px;
+    justify-self: center;
+}
+
+footer {
+    text-align: center;
+    font-family:Arial, Helvetica, serif;
+    font-size: smaller;
+    width: 450px;
+}
