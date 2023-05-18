@@ -2,12 +2,13 @@ body header h2 {
     color: #000080;
     text-align: center;
     font-family:Arial, Helvetica, serif;
-    width: 450px;
+    font-size: 24pt;
+    width: 650px;
     
 }
 
 fieldset {
-    width: 450px;
+    width: 650px;
     background-color: rgb(248, 192, 150);
     display: grid;
     grid-template-columns: 1fr;
@@ -15,26 +16,34 @@ fieldset {
     padding: 2em 1em 1.5em 1em;
     grid-row-gap: 10px;
     font-family:Arial, Helvetica, serif;
+    font-size: 18pt;
 
+}
+
+input, select, textarea {
+    font-size: 18pt;
+    font-family:Arial, Helvetica, serif;
 }
 
 .example {
     background-color: rgb(177, 197, 243);
     text-align: center;
-    width: 200px;
+    width: 350px;
 }
 
 button {
     background-color: #000080;
     color: white;
     width: 150px;
-    height: 25px;
+    height: 50px;
     justify-self: center;
+    font-family:Arial, Helvetica, serif;
+    font-size: 18pt;
 }
 
 footer {
     text-align: center;
     font-family:Arial, Helvetica, serif;
     font-size: smaller;
-    width: 450px;
+    width: 650px;
 }
