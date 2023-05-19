@@ -55,25 +55,25 @@ p {
 }
 
 body {
-    max-width: 1500px;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
-div .hero {
+.hero {
     position: relative;
-    display: block;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
-    top: 300px;
-    left: 200px;
-    right: 200px;
+    top: 1rem;
+    left: 0;
+    right: 0;
     text-align: center;
     background: var(--primary-color);
-    max-width: 1000px;
+    padding: 1rem;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 450px;
     left: 8px;
@@ -114,6 +114,7 @@ article {
     justify-self: center;
     width: 200px;
     height: auto;
+    padding: 1cm;
 }
 
 #p-one {
@@ -142,10 +143,13 @@ article {
 
 .adventure img {
     object-fit: cover;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     grid-column: 1/6;
 }
+ .adventure figcaption {
+    text-align: center;
+ }
 
 footer {
     display: grid;
@@ -161,29 +165,28 @@ footer p {
 .sociallinks img {
     width: 50px;
     height: auto;
-    margin: 5px;
 }
 
 .employee-profile {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    width: 1500px;
-    height: 350px;
+    grid-gap: 0;
     position: absolute;
-    top: 450px;
+    top: 400px;
 }
 
 .employee-profile img {
     object-fit: cover;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     justify-self: left;
 }
 
-figcaption {
+.employee-profile figcaption {
     background-color: #f7f377;
-    width: 200px;
+    width: 150px;
     text-align: center;
+    font-size: smaller;
 }
 
 div .info {
