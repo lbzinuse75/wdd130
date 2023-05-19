@@ -169,7 +169,7 @@ footer p {
 
 .employee-profile {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 0;
     position: absolute;
     top: 400px;
@@ -179,7 +179,7 @@ footer p {
     object-fit: cover;
     width: 150px;
     height: 150px;
-    justify-self: left;
+    margin-left: 70px;
 }
 
 .employee-profile figcaption {
@@ -187,16 +187,15 @@ footer p {
     width: 150px;
     text-align: center;
     font-size: smaller;
+    margin-left: 70px;
 }
 
-div .info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.information {
+    text-align: center;
 }
 
-.box aside{
-    grid-column-start: 2/3;
-    grid-row-start: 2/10;
+.box {
+    float: right;
 }
 
 iframe {
@@ -205,45 +204,10 @@ iframe {
 }
 
 fieldset {
-    /* grid-column-start: 1/2;
-    grid-row-start: 1/10; */
-    /* display: grid; */
-    /* grid-template-columns: 1fr; */
-    /* row-gap: 10px; */
     width: 600px;
     height: auto;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 2rem 1rem;
     margin: 10px 5px 5px 5px;
-}
-
-/* .information {
-    grid-column-start: 1/3;
-    text-align: center;
-} */
-
-input label {
-    padding: 5px px 5px 5px;
-}
-input {
-    width: 97%;
-    padding: 5px 5px 5px 5px;
-}
- 
-.radio-label {
-    display: block;
-    padding-left: 15px;
-    text-indent: 20px;
-    width: 200px;
-}
-
-.radio-input {
-    width: 15px;
-    height: 15px;
-    padding: 0;
-    margin: 0;
-    /* vertical-align: bottom; */
-    position: relative;
-    top: -1px;
 }
 
 .checkbox {
@@ -259,4 +223,5 @@ button {
     height: 25px;
     background-color: #F5ED16;
     border-radius: 15px;
+    align-items: center;
 }

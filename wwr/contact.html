@@ -27,7 +27,6 @@
             <img class="hero" src="images/F-images.jpeg" alt="Picture of a river and pinetrees lining the river with
                     a mountain in the background.">
         </div>
-        <h1>Company Information</h1>
         <div class="employee-profile">
             <figure>
                 <img src="images/A-EN-AB649_SCNDst_M_20180412161926.jpg" alt="Picture of the happy river guide Dave.">
@@ -41,14 +40,14 @@
                 <img src="images/D-images.jpeg" alt="Picture of the amazing river guide Victoria.">
                 <figcaption>Vickie (4 years experience) victoria@adventures.com</figcaption>
             </figure>
-            <figure>
+            <!-- <figure>
                 <img src="images/E-images.jpeg" alt="Picture of the spunky river guide Richard.">
                 <figcaption>Rick (4 years experience) richard@adventures.com</figcaption>
             </figure>
             <figure>
                 <img src="images/C-images.jpeg" alt="Picture of the fearless river guide Trevin.">
                 <figcaption>Trevin (3 years experience) trevin@adventures.com</figcaption>
-            </figure>
+            </figure> -->
         </div>
         <div class="info">
             <h2 class="information">Contact Information</h2>
@@ -69,23 +68,23 @@
         </div>
         <div>
             <form>
-                <fieldset>
-                    <h2 class="customer">Customer Communications</h4>
-                    <label class="input-label" for="user-name">User Name</label>
-                    <input class="input" type="text" id="user-name" name="name">
-                    <label class="input-label" for="user-email">Email</label>
+                <fieldset class="form">
+                    <h3 class="customer">Customer Communications</h4>
+                    <label class="input-label" for="user-name">User Name</label><br>
+                    <input class="input" type="text" id="user-name" name="name"><br>
+                    <label class="input-label" for="user-email">Email</label><br>
                     <input class="input" type="text" id="user-email" name="email">
                     <h3>Message Purpose</h3>
-                    <input class="radio-input" type="radio" name="radio" id="purpose">
-                    <label class="radio-label" for="purpose">General Inquiry</label>
-                    <input class="radio-input" class="radio" type="radio" id="reservaton" name="message-purpose" value="reservation">
-                    <label class="radio-label" for="reservation">Reservation Question</label>
-                    <input class="radio-input" class="radio" type="radio" id="website" name="message-purpose" value="website">
-                    <label class="radio-label" for="website">Website Suggestion</label>
+                    <input type="radio" id="purpose" name="radio" value="general">
+                    <label for="purpose">General Inquiry</label><br>
+                    <input type="radio" id="reservaton" name="message-purpose" value="reservation">
+                    <label for="reservation">Reservation Question</label><br>
+                    <input type="radio" id="website" name="message-purpose" value="website">
+                    <label for="website">Website Suggestion</label><br>
                     <h3>Write Message</h3>
                     <textarea rows="7" id="message" name="message"></textarea>
                     <input class="checkbox" type="checkbox" id="subscribe" name="subscribe" value="subscribe">
-                    <label class="checkbox-label" for="subscribe">Please subscribe me to the monthly newsletter</label>
+                    <label class="checkbox-label" for="subscribe">Please subscribe me to the monthly newsletter</label><br><br><br>
                     <button type="submit">Send Message</button>
                 </fieldset>
             </form>
