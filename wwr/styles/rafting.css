@@ -215,10 +215,6 @@ iframe {
     padding: 5px 3px 5px 3px;
 }
 
-.checkbox {
-    align-self: right;
-}
-
 textarea {
     width: 95%;
     padding: 1rem 1rem 2rem 1rem;
