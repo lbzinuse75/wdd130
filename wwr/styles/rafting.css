@@ -44,7 +44,7 @@ a:hover {
     font-weight: 700;
 }
 
-h1, h2, h3, form {
+h1, h2, h3, h4, form, table {
     color: var(--accent1-color);
     font-family: "Grandstander", serif;
 }
@@ -319,4 +319,76 @@ button {
 
 form {
     margin-top: 25px;
+}
+
+.trip-main {
+    position: relative;
+}
+
+.trip-main img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.trip-main h2 {
+    position: absolute;
+    text-align: center;
+    align-self: center;
+    width: 300px;
+    right: 5px;
+    top: 50px;
+    background-color: #E6752F;
+    padding: 5px;
+}
+
+.trip-main h3 {
+    position: absolute;
+    text-align: center;
+    align-self: center;
+    width: 350px;
+    right: 5px;
+    top: 80px;
+    background-color: #E6752F;
+    padding: 5px;
+}
+
+.trip-main h4 {
+    position: absolute;
+    text-align: center;
+    align-self: center;
+    width: 350px;
+    right: 5px;
+    top: 105px;
+    background-color: #E6752F;
+    padding: 5px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.top table {
+    width: 500px;
+    border-collapse: collapse;
+}
+
+.top table tr {
+    text-align: left;
+    border-bottom: 1px solid var(--accent1-color)
+}
+
+.top table th,
+.top table td {
+  padding: 8px;
+}
+
+#contact {
+    margin-top: 20px;
 }
