@@ -324,7 +324,7 @@ button {
     border-radius: 15px;
 }
 
-.fullname, .email {
+#fullname, #email {
     width: 250px;
     margin-right: 25px;
 }
