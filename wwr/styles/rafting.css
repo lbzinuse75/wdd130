@@ -249,6 +249,7 @@ button {
     text-align: center;
     background: var(--primary-color);
     padding: 5px;
+    border-radius: 15px;
 }
 
 .overlay2 {
