@@ -36,7 +36,6 @@ a {
     color: #251663;
     font-size: 26px;
     font-family: "Varela Round", sans-serif;
-    width: 150px;
 }
 
 a:hover {
@@ -350,7 +349,7 @@ form {
     margin-bottom: 10px;
 }
 
-.trip-main h2 {
+.trip-main h1 {
     position: absolute;
     text-align: center;
     align-self: center;
@@ -361,24 +360,24 @@ form {
     padding: 5px;
 }
 
-.trip-main h3 {
+.trip-main h2 {
     position: absolute;
     text-align: center;
     align-self: center;
     width: 350px;
     right: 5px;
-    top: 80px;
+    top: 120px;
     background-color: #E6752F;
     padding: 5px;
 }
 
-.trip-main h4 {
+.trip-main h3 {
     position: absolute;
     text-align: center;
     align-self: center;
-    width: 350px;
+    width: 450px;
     right: 5px;
-    top: 105px;
+    top: 550px;
     background-color: #E6752F;
     padding: 5px;
 }
@@ -424,7 +423,7 @@ form {
 }
 
 .grid-items-trips h4 {
-    background-color:#0193E0;
+    background-color:#bcdcec;
     display: inline-block;
     width: auto;
     padding: 10px;
