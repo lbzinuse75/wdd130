@@ -429,3 +429,8 @@ form {
     width: auto;
     padding: 10px;
 }
+
+#l-message {
+    font-size: 14pt;
+    font-weight: 700;
+}
