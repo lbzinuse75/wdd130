@@ -262,19 +262,35 @@ button {
     padding: 5px;
 }
 
+.button-container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
 .button {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 0;
+    background-color: var(--accent2-color);
+    width: 200px;
+    height: 25px;
+    border-radius: 15px;
+    border: 1px solid var(--accent1-color)
 }
 
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "picture para para"
-    "para2 para2 picture2"
-    "picture3 para3 para3";
+    grid-template-areas: 
+        "picture para para"
+        "para2 para2 picture2"
+        "picture3 para3 para3";
 }
 
 #rafting-img {
