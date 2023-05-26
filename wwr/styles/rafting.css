@@ -44,7 +44,7 @@ a:hover {
     font-weight: 700;
 }
 
-h1, h2, h3, h4, form, table {
+h1, h2, h3, h4, h5, form, table {
     color: var(--accent1-color);
     font-family: "Grandstander", serif;
 }
@@ -391,4 +391,24 @@ form {
 
 #contact {
     margin-top: 20px;
+}
+
+.grid-trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;    
+}
+
+#picture1, #picture2, #picture3, #picture4, #picture5 {
+    object-fit: cover;
+    width: 465px;
+    height: 300px;
+}
+
+.grid-items-trips h4 {
+    background-color:#0193E0;
+    display: inline-block;
+    width: auto;
+    padding: 10px;
 }
