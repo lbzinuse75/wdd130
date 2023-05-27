@@ -32,7 +32,7 @@ nav {
 
 a {
     text-decoration-line: none;
-    padding: 5px;
+    padding: 30px;
     color: #251663;
     font-size: 26px;
     font-family: "Varela Round", sans-serif;
@@ -238,6 +238,7 @@ button {
     width: 100%;
     height: auto;
     position: relative;
+    padding-bottom: 25px;
 }
 
 .overlay1 {
@@ -290,6 +291,7 @@ button {
         "picture para para"
         "para2 para2 picture2"
         "picture3 para3 para3";
+    margin-top: 25px;
 }
 
 #rafting-img {
